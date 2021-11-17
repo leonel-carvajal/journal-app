@@ -1,0 +1,64 @@
+.Notes__screen{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.Notes__AppBar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: $primary-color;
+	color: $font-color;
+	padding: 15px ;
+}
+.btn{
+	border: 1px solid transparent;
+	background-color: transparent;
+	padding: 0.7em;
+	outline: none;
+	margin-left: 10px;
+	color: $font-color;
+	font-weight: 700;
+	cursor: pointer;
+	border-radius: 4px;
+		&:hover{
+		border: 1px solid $font-color;
+	}
+}
+.Notes__content{
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+	height: 100%;
+	padding: 20px;
+}
+.notes__form{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.note__input{
+		width: 75%;
+		color: #000;
+		outline: none;
+		border: 0;
+		border-bottom:1px solid $primary-color;
+		padding: 0.6em;
+		text-align: left; 
+}
+
+.notes__area{
+	width: 75%;
+	height: 250px;
+	border: 1px solid $primary-color;
+	outline: none;
+	resize: none;
+	margin-top: 25px;
+}
+.notes__image{
+	text-align: center;
+}
+.image{
+	max-width: 20%;
+}

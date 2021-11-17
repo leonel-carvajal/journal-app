@@ -1,0 +1,32 @@
+.button{
+	display: block;
+	margin-top: 0.8em;
+	width: 100%;
+	padding: 0.6em;
+	outline: none;
+	border: 0;
+	background: darken($color: $primary-color, $amount: 10);
+	border-radius: 5px;
+	color: $font-color;
+	font-size: 1em;
+	font-weight: 700;
+	cursor: pointer;
+	&:hover{
+		background-color: darken($color: $primary-color, $amount: 25);
+	}
+	&:disabled{
+		background-color: lighten($color: $primary-color, $amount: 10);
+	}
+}
+.google__icon{
+	max-width: 100%;
+}
+.google__text{
+	color: $font-color;
+}
+.google__box{
+	padding: 0.55em;
+	background-color: $font-color;
+	transform: translateX(-40%);
+	border-radius: 3px;
+}
